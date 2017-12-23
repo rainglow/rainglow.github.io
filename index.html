@@ -49,10 +49,15 @@
 
             pre {
                 font-family: 'Fira Code', 'Hack', 'Monaco', monospace;
-                font-size:13px;
                 line-height:1.8em;
                 overflow:hidden;
                 margin:0;
+            }
+
+            @media (max-width: 720px) {
+                pre {
+                    font-size:10px !important;
+                }
             }
 
             h1 {
