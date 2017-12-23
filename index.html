@@ -1,22 +1,61 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Rainglow Previews</title>
+        <title>Rainglow Color Themes</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="A collection of over 180 synax color themes created by Dayle Rees for a variety of different editors and software." />
+        <meta name="keywords" content="rainglow,color,theme,vscode,sublime,atom" />
+        <meta name="author" content="Dayle Rees" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:site_name" content="Rainglow Color Themes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Rainglow Color Themes" />
+        <meta property="og:description" content="A collection of over 180 synax color themes created by Dayle Rees for a variety of different editors and software." />
+        <meta property="og:url" content="http://rainglow.io/" />
+        <meta name="twitter:title" content="Rainglow Color Themes" />
+        <meta name="twitter:description" content="A collection of over 180 synax color themes created by Dayle Rees for a variety of different editors and software." />
+        <meta name="twitter:url" content="http://rainglow.io/" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <style>
+            @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
+
             body {
+                font-family: 'Lato', sans-serif;
                 margin:0;
                 padding:0;
+                background-color:#0c0d0e;
+                color:#cccccc;
+                background-image:url('background.png');
+                background-repeat: no-repeat;
+                background-size: 300px;
+                background-position:center top;
+            }
+
+            a, a:hover, a:active, a:visited {
+                color:#ff5d38;
+                text-decoration:none;
+            }
+
+            a:hover {
+                text-decoration:underline;
+            }
+
+            img {
+                max-width:600px;
+                width:100%;
+                margin-top:2em;
             }
 
             pre {
                 font-family: 'Fira Code', 'Hack', 'Monaco', monospace;
                 font-size:13px;
-                line-height:1.6em;
+                line-height:1.8em;
                 overflow:hidden;
                 margin:0;
             }
 
             h1 {
-                font-family: Helvetica, sans-serif;
                 font-size:0.8em;
                 font-weight:normal;
                 text-align:center;
@@ -27,9 +66,64 @@
                 line-height:1em;
                 letter-spacing:0.2em;
             }
+
+            .intro {
+                padding:10em 1em 5em 1em;
+                text-align: center;
+                font-weight:300;
+                max-width:600px;
+                margin: 0 auto;
+
+            }
+
+            .intro h1 {
+                font-size:2em;
+            }
+
+            .downloads {
+                list-style-type:none;
+                margin:2em 0;
+                padding:0;
+            }
+
+            .downloads li {
+                display:inline-block;
+            }
+
+            .downloads a {
+                background-color: #26a6a6;
+                color:white;
+                font-weight:bold;
+                text-transform:uppercase;
+                text-decoration:none;
+                padding:0.5em 1em;
+                margin:0 0.5em;
+                line-height:3em;
+                border-radius:3px;
+            }
+
+            .downloads a:hover {
+                background-color: #ff5d38;
+            }
         </style>
     </head>
-    <body><h1 style="background-color:#333333; color: #ffffff;">Arstotzka Light</h1>
+    <body>
+        <div class="intro">
+            <h1>Rainglow</h1>
+            <p>A collection of <strong>over 180 themes</strong> for a variety of different editors and software.</p>
+            <p>All themes are originals created by <a href="https://daylerees.com" target="_blank" title="Dayle Rees">Dayle Rees</a>.</p>
+
+            <img src="https://raw.githubusercontent.com/rainglow/examples/master/vscode/gloom-contrast.png" alt="Gloom Contrast">
+
+            <ul class="downloads">
+                <li><a title="VS Code" href="https://github.com/rainglow/vscode">VSCode</a></li>
+                <li><a title="JetBrains IDEs" href="https://github.com/rainglow/jetbrains">JetBrains</a></li>
+                <li><a title="Sublime Text" href="https://github.com/rainglow/sublime">Sublime Text</a></li>
+                <li><a title="Atom" href="https://github.com/rainglow/atom">Atom</a></li>
+            </ul>
+
+            <p>From here on out, keep scrolling for theme previews. Enjoy!</p>
+        </div><h1 style="background-color:#333333; color: #ffffff;">Arstotzka Light</h1>
 <pre style="font-family:Fira Code, Hack, Monaco, monospace; font-size:13px; padding:2em; background-color: #ffffff; color: #333333;">
 &lt;?php
 
