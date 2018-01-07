@@ -109,7 +109,7 @@
 
             .downloads a {
                 background-color: #26a6a6;
-                color:white;
+                color:#e7f3f3;
                 font-weight:bold;
                 text-transform:uppercase;
                 text-decoration:none;
@@ -117,10 +117,36 @@
                 margin:0 0.5em;
                 line-height:3.6em;
                 border-radius:3px;
+                text-shadow:0 1px 1px rgba(0,0,0,0.2);
             }
 
             .downloads a:hover {
+                background-color: #54dddd;
+                color:white;
+            }
+
+            a.btn-preview {
                 background-color: #ff5d38;
+                color:#f3e6e2;
+                font-weight:bold;
+                text-transform:uppercase;
+                text-decoration:none;
+                padding:0.5em 1em;
+                margin:0 0.5em;
+                line-height:3.6em;
+                border-radius:3px;
+                text-shadow:0 1px 1px rgba(0,0,0,0.2);
+            }
+
+            a.btn-preview:hover {
+                background-color: #ff8266;
+                color:white;
+            }
+
+            @media screen and (max-width: 800px) {
+                .desktop {
+                    display:none;
+                }
             }
         </style>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111705870-1"></script>
@@ -139,6 +165,11 @@
             <p>All themes are originals created by <a href="https://daylerees.com" target="_blank" title="Dayle Rees">Dayle Rees</a>.</p>
 
             <img src="https://raw.githubusercontent.com/rainglow/examples/master/vscode/gloom-contrast.png" alt="Gloom Contrast">
+
+            <div class="desktop">
+                    <a href="https://rainglow.io/preview" title="Preview Rainglow Themes" class="btn-preview">Launch the theme preview tool</a>
+            </div>
+    
 
             <ul class="downloads">
                 <li><a title="VS Code" href="https://github.com/rainglow/vscode">VSCode</a></li>
